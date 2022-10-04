@@ -1,0 +1,15 @@
+﻿@page "/"
+
+<div class="container-fluid">
+    <RadzenGoogleMap style="height:700px; margin-left:40px; margin-right:40px;" Zoom=6 Data=@Markers 
+    Center=@(new() { Lat = 48.46209410968207, Lng = 30.523888021937104 }) MarkerClick=@OnMarkerClick >
+
+    </RadzenGoogleMap>
+    <br/>
+    <div class="text-center text-black">Інформація: </div>
+    <div class="text-center text-primary">@SelectedMarker.Title</div>
+    <div class="text-center text-secondary">@SelectedMarker.Info</div>
+</div>
+
+
+

@@ -1,0 +1,29 @@
+[
+  {
+    "Title": "Роменський РТЦК та СП",
+    "Label": " ",
+    "Info": "Е-пошта: romny-omvk@post.mil.gov.ua Телефон: (0544) 85-26-89",
+    "Position": {
+      "Latitude": 50.7462,
+      "Longitude": 33.4911
+    }
+  },
+  {
+    "Title": "Сумський РТЦК та СП",
+    "Label": " ",
+    "Info": "Е-пошта: sumy-rvk@post.mil.gov.ua Телефон: (0542) 61-81-83",
+    "Position": {
+      "Latitude": 50.90040388293837,
+      "Longitude": 34.7700357826735
+    }
+  },
+  {
+    "Title": "Вінницький РТЦК та СП",
+    "Label": " ",
+    "Info": "Е-пошта: vinnitsya_rtck@post.mil.gov.ua Телефон: (0432) 61-21-05",
+    "Position": {
+      "Latitude": 49.231667378460735,
+      "Longitude": 28.44335815114511
+    }
+  }
+]
