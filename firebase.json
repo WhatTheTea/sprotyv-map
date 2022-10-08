@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "/bin/Release/net6.0/wwwroot",
+    "public": "release/wwwroot",
     "ignore": [
       "firebase.json",
       "**/.*",
