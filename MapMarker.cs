@@ -1,5 +1,3 @@
-using System.Globalization;
-
 namespace sprotyv_map;
 
 public sealed class MapMarker
