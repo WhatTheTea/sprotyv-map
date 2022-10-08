@@ -26,9 +26,8 @@ public partial class MapPage : ComponentBase
 
     void OnMarkerClick(RadzenGoogleMapMarker rMarker) => selectedMarker = MarkerModels[rMarker.Title];
 
-    protected override async Task OnInitializedAsync()
+    protected override async Task OnParametersSetAsync()
     {
-        await base.OnInitializedAsync();
         await Task.Delay(500);
         List<MapMarker> jsonMarkers = new();
         try
@@ -45,5 +44,9 @@ public partial class MapPage : ComponentBase
             Logger.LogError(ex.Message);
             Logger.LogError(ex.Source);
         }
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
     }
 }
