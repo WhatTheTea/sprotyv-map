@@ -29,6 +29,7 @@ public partial class MapPage : ComponentBase
     protected override async Task OnInitializedAsync()
     {
         await base.OnInitializedAsync();
+        await Task.Delay(500);
         List<MapMarker> jsonMarkers = new();
         try
         {
